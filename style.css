@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+* {
+box-sizing: border-box;
+font-family: 'PT Sans', sans-serif;
+}
+
+
+body {
+
+    margin: 0;
+    top: 0;
+    background-image: url(images/flower-4261793_1920.jpg);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+.color {
+background-color: #FF1700;
+height: 100%;
+width: 100%;
+clip-path: circle(40% at 90px 90px );
+position: absolute;
+display: flex;
+z-index: 0;
+
+}
+
+
+
+.head header .logo
+{
+    z-index: 3;
+    max-width:150px ;
+    margin-left: 20px;
+    filter: invert(1);
+}
+
+
+.head header    {
+    z-index: 3;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.head header ul {
+
+    list-style: none;
+    display: flex;
+    align-items: center
+}
+
+
+
+.head header ul li {
+margin: 20px;
+color: white;
+padding: 10px;
+
+
+}
+
+.head header ul li:hover {
+
+background-color: #FF1700;
+
+border-radius: 20px;
+
+
+
+}
+
+
+
+
+.pag {
+    z-index: 30;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.pag h3 {
+
+width: 100px;
+color: white;
+font-size: 70px;
+position: absolute;
+
+}
+
+.pag p {
+
+color: white;
+font-size: 20px;
+
+
+}
+
+.sci  {
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+    padding: 30px;
+    bottom :20px
+}
+
+.sci ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.sci ul li {    
+margin: 20px;
+filter: invert(1);
+
+}
+
+
+.sci ul li:hover {
+
+}
+
+
+.pag  .btn {
+background-color: white;
+padding: 20px;
+border-radius: 45px;
+text-decoration: none;
+color: black;
+display: flex;
+position: absolute;
+top: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
